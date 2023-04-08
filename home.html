@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Breve descrição do conteúdo do site">
+    <title>Minha Página Inicial</title>
+    <link rel="stylesheet" href="css/home.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Inicio</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="membro.html">Membros</a></li>
+          <li><a href="ajuda.html">Ajuda</a></li>
+          <li><a href="https://discord.com/invite/XxX3fWcETr">Discord</a></li>
+          <li><a href="lojas.html">Servicos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>Bem-Vindo(a) Ao Site BVR STUDIOS</h1>
+      <p>Seja Bem Vindo(a) Ao Nosso site Espero Que Goste!!</p>
+      <a href="lojas.html">
+      <button type="button">Conheca Nosso Trabalho</button></a>
+    </section>
+    <section class="services">
+      <h2>Nossos Servicos</h2>
+      <ul>
+        <li>
+          <i class="fas fa-laptop" alt="Ícone de Laptop"></i>
+          <h3>Desenvolvimento Web</h3>
+          <p>Oferecemos servicos de desenvolvimento web personalizados para atender as necessidades de sua empresa.</p>
+        </li>
+        <li>
+          <i class="fas fa-mobile-alt" alt="Ícone de Celular"></i>
+          <h3>Desenvolvimento Mobile</h3>
+          <p>Desenvolvemos aplicativos moveis para Windows e Android, oferecendo solucoes personalizadas para atender as necessidades do seu negocio.</p>
+        </li>
+        <li>
+          <i class="fas fa-shopping-cart" alt="Ícone de Carrinho de Compras"></i>
+          <h3>E-commerce</h3>
+          <p>Desenvolvemos lojas virtuais personalizadas e escalaveis para vender seus produtos e servicos online.</p>
+        </li>
+      </ul>
+    </section>
+        <section class="cta">
+        <h2>Entre em Contato</h2>
+        <p>Preencha o formulario abaixo para entrar em contato conosco e receber uma cotacao.</p>
+        <form method="post" action="banco-geral/banco-home/submit-form.php">
+          <input type="text" name="name" placeholder="Nome Completo" required>
+          <input type="email" name="email" placeholder="Endereco de Email" required>
+          <textarea name="message" placeholder="Mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+    </section>
+    </main>
+  <footer>
+      <p>© 2023 Todos os Direitos Reservados</p>
+  </footer>
+<script src="js/home.js"></script>
+  </body>
+</html>
